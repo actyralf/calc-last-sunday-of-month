@@ -29,7 +29,7 @@ function splitDate(dateString) {
   };
 }
 
-// Berechnet den letzten Sonntag im Montag
+// Berechnet den letzten Sonntag im Monat
 function getRentDay(dateString) {
   const date = splitDate(dateString); // date string in Datumsobjekt umwandeln
   let lastDayInMonth = monthLengths[date.m - 1]; // Letzten Tag des Monats aus Array holen
